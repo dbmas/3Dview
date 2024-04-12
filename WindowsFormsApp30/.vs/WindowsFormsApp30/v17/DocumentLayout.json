@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|c:\\users\\\u5F20\u6597\u6597\\source\\repos\\windowsformsapp30\\windowsformsapp30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|c:\\users\\\u5F20\u6597\u6597\\source\\repos\\windowsformsapp30\\windowsformsapp30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|c:\\users\\\u5F20\u6597\u6597\\source\\repos\\windowsformsapp30\\windowsformsapp30\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WindowsFormsApp30||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|c:\\users\\\u5F20\u6597\u6597\\source\\repos\\windowsformsapp30\\windowsformsapp30\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowsFormsApp30",
+              "DocumentMoniker": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\WindowsFormsApp30.csproj",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\WindowsFormsApp30.csproj",
+              "ToolTip": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\WindowsFormsApp30.csproj",
+              "RelativeToolTip": "WindowsFormsApp30\\WindowsFormsApp30.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-11T06:51:01.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.Designer.cs",
+              "RelativeToolTip": "WindowsFormsApp30\\Form1.Designer.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAIwOUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T06:46:25.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\Form1.cs",
+              "ToolTip": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp30\\Form1.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAIwGcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T06:38:33.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\Form1.cs",
+              "ToolTip": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WindowsFormsApp30\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T06:37:55.835Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
