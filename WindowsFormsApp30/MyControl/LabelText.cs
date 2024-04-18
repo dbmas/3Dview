@@ -17,10 +17,6 @@ namespace MyControl
             InitializeComponent();
         }
 
-        private String myText;
-        private String myContent;
-        private char passwordChar;
-
         public String MyContent
         {
             get { return label1.Text; }
@@ -37,6 +33,35 @@ namespace MyControl
         {
             get { return textBox1.PasswordChar; }
             set { textBox1.PasswordChar = value; }
+        }
+
+        public Size SizeT
+        {
+            get { return textBox1.Size; }
+            set 
+            {
+                int lWith= this.Size.Width - value.Width;
+                int lHeigh = this.Size.Height - value.Height;
+                label1.Size=new Size(lWith, lHeigh);
+                textBox1.Size = value; 
+            }
+        }
+
+        public Size SizeL {
+            get { return label1.Size; } 
+            set 
+            {
+                int tWith = this.Size.Width - value.Width;
+                int tHeigh = this.Size.Height - value.Height;
+                label1.Size = new Size(tWith, tHeigh);
+                label1.Size = value;
+            }    
+        }
+
+        public bool Multiline
+        {
+            get { return textBox1.Multiline; }
+            set { textBox1.Multiline = value; }
         }
     }
 }

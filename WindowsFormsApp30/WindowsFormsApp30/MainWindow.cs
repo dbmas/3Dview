@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,10 +17,12 @@ namespace WindowsFormsApp30
         public MainWindow()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {   //创建第一个渲染器
+        {   
+            //创建第一个渲染器
             vtkRenderer renderer1 = vtkRenderer.New();
 
             // 创建第二个渲染器
@@ -109,7 +112,18 @@ namespace WindowsFormsApp30
         private void toolStripButton10_Click(object sender, EventArgs e)
         {
             DatabaseWindow databaseWindow= new DatabaseWindow();
+            databaseWindow.StartPosition = FormStartPosition.CenterScreen;
             databaseWindow.Show();
+        }
+
+        /// <summary>
+        /// 数据处理窗口菜单选择事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void dataHandle_DropDownItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            ControlHelper.MdiChildWinOpen(this,e.ClickedItem.Name,Assembly.GetExecutingAssembly());
         }
     }
 }

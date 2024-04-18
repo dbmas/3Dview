@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.文件FToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.数据处理SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataHandle = new System.Windows.Forms.ToolStripMenuItem();
             this.勘探线剖面图KToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.三维显示WToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,6 +54,14 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.renderWindowControl1 = new Kitware.VTK.RenderWindowControl();
+            this.ZkBase = new System.Windows.Forms.ToolStripMenuItem();
+            this.ZkYanXing = new System.Windows.Forms.ToolStripMenuItem();
+            this.Ktx = new System.Windows.Forms.ToolStripMenuItem();
+            this.DataImport = new System.Windows.Forms.ToolStripMenuItem();
+            this.DataView = new System.Windows.Forms.ToolStripMenuItem();
+            this.ZbCalculate = new System.Windows.Forms.ToolStripMenuItem();
+            this.DataCreate = new System.Windows.Forms.ToolStripMenuItem();
+            this.CzCalculate = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -63,7 +71,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.文件FToolStripMenuItem,
-            this.数据处理SToolStripMenuItem,
+            this.dataHandle,
             this.勘探线剖面图KToolStripMenuItem,
             this.三维显示WToolStripMenuItem,
             this.工具ToolStripMenuItem,
@@ -80,11 +88,21 @@
             this.文件FToolStripMenuItem.Size = new System.Drawing.Size(74, 21);
             this.文件FToolStripMenuItem.Text = "文件（F）";
             // 
-            // 数据处理SToolStripMenuItem
+            // dataHandle
             // 
-            this.数据处理SToolStripMenuItem.Name = "数据处理SToolStripMenuItem";
-            this.数据处理SToolStripMenuItem.Size = new System.Drawing.Size(99, 21);
-            this.数据处理SToolStripMenuItem.Text = "数据处理（S）";
+            this.dataHandle.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ZkBase,
+            this.ZkYanXing,
+            this.Ktx,
+            this.DataImport,
+            this.DataView,
+            this.ZbCalculate,
+            this.DataCreate,
+            this.CzCalculate});
+            this.dataHandle.Name = "dataHandle";
+            this.dataHandle.Size = new System.Drawing.Size(99, 21);
+            this.dataHandle.Text = "数据处理（S）";
+            this.dataHandle.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.dataHandle_DropDownItemClicked);
             // 
             // 勘探线剖面图KToolStripMenuItem
             // 
@@ -272,6 +290,54 @@
             this.renderWindowControl1.TabIndex = 3;
             this.renderWindowControl1.TestText = null;
             // 
+            // ZkBase
+            // 
+            this.ZkBase.Name = "ZkBase";
+            this.ZkBase.Size = new System.Drawing.Size(184, 22);
+            this.ZkBase.Text = "钻孔基本信息录入";
+            // 
+            // ZkYanXing
+            // 
+            this.ZkYanXing.Name = "ZkYanXing";
+            this.ZkYanXing.Size = new System.Drawing.Size(184, 22);
+            this.ZkYanXing.Text = "钻孔岩性信息录入";
+            // 
+            // Ktx
+            // 
+            this.Ktx.Name = "Ktx";
+            this.Ktx.Size = new System.Drawing.Size(184, 22);
+            this.Ktx.Text = "勘探线剖面数据录入";
+            // 
+            // DataImport
+            // 
+            this.DataImport.Name = "DataImport";
+            this.DataImport.Size = new System.Drawing.Size(184, 22);
+            this.DataImport.Text = "数据导入";
+            // 
+            // DataView
+            // 
+            this.DataView.Name = "DataView";
+            this.DataView.Size = new System.Drawing.Size(184, 22);
+            this.DataView.Text = "数据浏览";
+            // 
+            // ZbCalculate
+            // 
+            this.ZbCalculate.Name = "ZbCalculate";
+            this.ZbCalculate.Size = new System.Drawing.Size(184, 22);
+            this.ZbCalculate.Text = "坐标计算";
+            // 
+            // DataCreate
+            // 
+            this.DataCreate.Name = "DataCreate";
+            this.DataCreate.Size = new System.Drawing.Size(184, 22);
+            this.DataCreate.Text = "数据生成";
+            // 
+            // CzCalculate
+            // 
+            this.CzCalculate.Name = "CzCalculate";
+            this.CzCalculate.Size = new System.Drawing.Size(184, 22);
+            this.CzCalculate.Text = "插值计算";
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -300,7 +366,7 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 文件FToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 数据处理SToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dataHandle;
         private System.Windows.Forms.ToolStripMenuItem 勘探线剖面图KToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 三维显示WToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 工具ToolStripMenuItem;
@@ -323,6 +389,14 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private Kitware.VTK.RenderWindowControl renderWindowControl1;
+        private System.Windows.Forms.ToolStripMenuItem ZkBase;
+        private System.Windows.Forms.ToolStripMenuItem ZkYanXing;
+        private System.Windows.Forms.ToolStripMenuItem Ktx;
+        private System.Windows.Forms.ToolStripMenuItem DataImport;
+        private System.Windows.Forms.ToolStripMenuItem DataView;
+        private System.Windows.Forms.ToolStripMenuItem ZbCalculate;
+        private System.Windows.Forms.ToolStripMenuItem DataCreate;
+        private System.Windows.Forms.ToolStripMenuItem CzCalculate;
     }
 }
 

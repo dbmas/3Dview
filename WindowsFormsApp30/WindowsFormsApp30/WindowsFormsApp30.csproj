@@ -55,11 +55,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControlHelper.cs" />
+    <Compile Include="DataHandle\CzCalculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataHandle\CzCalculate.Designer.cs">
+      <DependentUpon>CzCalculate.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseWindow.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DatabaseWindow.Designer.cs">
       <DependentUpon>DatabaseWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataHandle\DataCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataHandle\DataCreate.Designer.cs">
+      <DependentUpon>DataCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataHandle\ZkBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataHandle\ZkBase.Designer.cs">
+      <DependentUpon>ZkBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataHandle\DataImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataHandle\DataImport.Designer.cs">
+      <DependentUpon>DataImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataHandle\DataView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataHandle\DataView.Designer.cs">
+      <DependentUpon>DataView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataHandle\Ktx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataHandle\Ktx.Designer.cs">
+      <DependentUpon>Ktx.cs</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
@@ -69,8 +106,44 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataHandle\ZbCalculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataHandle\ZbCalculate.Designer.cs">
+      <DependentUpon>ZbCalculate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataHandle\ZkYanXing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataHandle\ZkYanXing.Designer.cs">
+      <DependentUpon>ZkYanXing.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DatabaseWindow.resx">
       <DependentUpon>DatabaseWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataHandle\CzCalculate.resx">
+      <DependentUpon>CzCalculate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataHandle\DataCreate.resx">
+      <DependentUpon>DataCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataHandle\DataImport.resx">
+      <DependentUpon>DataImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataHandle\DataView.resx">
+      <DependentUpon>DataView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataHandle\Ktx.resx">
+      <DependentUpon>Ktx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataHandle\ZbCalculate.resx">
+      <DependentUpon>ZbCalculate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataHandle\ZkBase.resx">
+      <DependentUpon>ZkBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataHandle\ZkYanXing.resx">
+      <DependentUpon>ZkYanXing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
