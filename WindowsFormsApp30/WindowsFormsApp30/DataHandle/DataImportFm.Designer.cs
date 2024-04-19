@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp30
 {
-    partial class DataImport
+    partial class DataImportFm
     {
         /// <summary>
         /// Required designer variable.

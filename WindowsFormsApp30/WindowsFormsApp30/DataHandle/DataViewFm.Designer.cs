@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp30
 {
-    partial class CzCalculate
+    partial class DataViewFm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // CzCalculate
+            // DataView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "CzCalculate";
-            this.Text = "插值计算";
+            this.Name = "DataView";
+            this.Text = "数据浏览编辑";
             this.ResumeLayout(false);
 
         }

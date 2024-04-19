@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp30
 {
-    partial class ZkYanXing
+    partial class ZkYanXingFm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.labelText10 = new MyControl.LabelText();
@@ -48,6 +45,9 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.labelText22 = new MyControl.LabelText();
             this.labelText24 = new MyControl.LabelText();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.labelText6 = new MyControl.LabelText();
@@ -59,13 +59,13 @@
             this.labelText2 = new MyControl.LabelText();
             this.labelText1 = new MyControl.LabelText();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -83,34 +83,6 @@
             this.panel1.Padding = new System.Windows.Forms.Padding(20, 20, 20, 0);
             this.panel1.Size = new System.Drawing.Size(663, 553);
             this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(20, 478);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(623, 75);
-            this.panel2.TabIndex = 3;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(319, 19);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(97, 34);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "取消";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(155, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 34);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "确定";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -314,6 +286,36 @@
             this.labelText24.SizeT = new System.Drawing.Size(153, 21);
             this.labelText24.TabIndex = 0;
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(20, 478);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(623, 75);
+            this.panel2.TabIndex = 3;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(319, 19);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(97, 34);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "取消";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(155, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(97, 34);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "确定";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.panel4);
@@ -445,16 +447,15 @@
             this.labelText1.SizeT = new System.Drawing.Size(153, 21);
             this.labelText1.TabIndex = 0;
             // 
-            // ZkYanXing
+            // ZkYanXingFm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(663, 553);
             this.Controls.Add(this.panel1);
-            this.Name = "ZkYanXing";
+            this.Name = "ZkYanXingFm";
             this.Text = "钻孔岩性信息输入";
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
@@ -465,6 +466,7 @@
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();

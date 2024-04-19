@@ -32,6 +32,14 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.文件FToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataHandle = new System.Windows.Forms.ToolStripMenuItem();
+            this.ZkBaseFm = new System.Windows.Forms.ToolStripMenuItem();
+            this.ZkYanXingFm = new System.Windows.Forms.ToolStripMenuItem();
+            this.KtxFm = new System.Windows.Forms.ToolStripMenuItem();
+            this.DataImportFm = new System.Windows.Forms.ToolStripMenuItem();
+            this.DataViewFm = new System.Windows.Forms.ToolStripMenuItem();
+            this.ZbCalculateFm = new System.Windows.Forms.ToolStripMenuItem();
+            this.DataCreateFm = new System.Windows.Forms.ToolStripMenuItem();
+            this.CzCalculateFm = new System.Windows.Forms.ToolStripMenuItem();
             this.勘探线剖面图KToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.三维显示WToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,14 +62,6 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.renderWindowControl1 = new Kitware.VTK.RenderWindowControl();
-            this.ZkBase = new System.Windows.Forms.ToolStripMenuItem();
-            this.ZkYanXing = new System.Windows.Forms.ToolStripMenuItem();
-            this.Ktx = new System.Windows.Forms.ToolStripMenuItem();
-            this.DataImport = new System.Windows.Forms.ToolStripMenuItem();
-            this.DataView = new System.Windows.Forms.ToolStripMenuItem();
-            this.ZbCalculate = new System.Windows.Forms.ToolStripMenuItem();
-            this.DataCreate = new System.Windows.Forms.ToolStripMenuItem();
-            this.CzCalculate = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -91,18 +91,66 @@
             // dataHandle
             // 
             this.dataHandle.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ZkBase,
-            this.ZkYanXing,
-            this.Ktx,
-            this.DataImport,
-            this.DataView,
-            this.ZbCalculate,
-            this.DataCreate,
-            this.CzCalculate});
+            this.ZkBaseFm,
+            this.ZkYanXingFm,
+            this.KtxFm,
+            this.DataImportFm,
+            this.DataViewFm,
+            this.ZbCalculateFm,
+            this.DataCreateFm,
+            this.CzCalculateFm});
             this.dataHandle.Name = "dataHandle";
             this.dataHandle.Size = new System.Drawing.Size(99, 21);
             this.dataHandle.Text = "数据处理（S）";
             this.dataHandle.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.dataHandle_DropDownItemClicked);
+            // 
+            // ZkBaseFm
+            // 
+            this.ZkBaseFm.Name = "ZkBaseFm";
+            this.ZkBaseFm.Size = new System.Drawing.Size(184, 22);
+            this.ZkBaseFm.Text = "钻孔基本信息录入";
+            // 
+            // ZkYanXingFm
+            // 
+            this.ZkYanXingFm.Name = "ZkYanXingFm";
+            this.ZkYanXingFm.Size = new System.Drawing.Size(184, 22);
+            this.ZkYanXingFm.Text = "钻孔岩性信息录入";
+            // 
+            // KtxFm
+            // 
+            this.KtxFm.Name = "KtxFm";
+            this.KtxFm.Size = new System.Drawing.Size(184, 22);
+            this.KtxFm.Text = "勘探线剖面数据录入";
+            // 
+            // DataImportFm
+            // 
+            this.DataImportFm.Name = "DataImportFm";
+            this.DataImportFm.Size = new System.Drawing.Size(184, 22);
+            this.DataImportFm.Text = "数据导入";
+            // 
+            // DataViewFm
+            // 
+            this.DataViewFm.Name = "DataViewFm";
+            this.DataViewFm.Size = new System.Drawing.Size(184, 22);
+            this.DataViewFm.Text = "数据浏览";
+            // 
+            // ZbCalculateFm
+            // 
+            this.ZbCalculateFm.Name = "ZbCalculateFm";
+            this.ZbCalculateFm.Size = new System.Drawing.Size(184, 22);
+            this.ZbCalculateFm.Text = "坐标计算";
+            // 
+            // DataCreateFm
+            // 
+            this.DataCreateFm.Name = "DataCreateFm";
+            this.DataCreateFm.Size = new System.Drawing.Size(184, 22);
+            this.DataCreateFm.Text = "数据生成";
+            // 
+            // CzCalculateFm
+            // 
+            this.CzCalculateFm.Name = "CzCalculateFm";
+            this.CzCalculateFm.Size = new System.Drawing.Size(184, 22);
+            this.CzCalculateFm.Text = "插值计算";
             // 
             // 勘探线剖面图KToolStripMenuItem
             // 
@@ -290,54 +338,6 @@
             this.renderWindowControl1.TabIndex = 3;
             this.renderWindowControl1.TestText = null;
             // 
-            // ZkBase
-            // 
-            this.ZkBase.Name = "ZkBase";
-            this.ZkBase.Size = new System.Drawing.Size(184, 22);
-            this.ZkBase.Text = "钻孔基本信息录入";
-            // 
-            // ZkYanXing
-            // 
-            this.ZkYanXing.Name = "ZkYanXing";
-            this.ZkYanXing.Size = new System.Drawing.Size(184, 22);
-            this.ZkYanXing.Text = "钻孔岩性信息录入";
-            // 
-            // Ktx
-            // 
-            this.Ktx.Name = "Ktx";
-            this.Ktx.Size = new System.Drawing.Size(184, 22);
-            this.Ktx.Text = "勘探线剖面数据录入";
-            // 
-            // DataImport
-            // 
-            this.DataImport.Name = "DataImport";
-            this.DataImport.Size = new System.Drawing.Size(184, 22);
-            this.DataImport.Text = "数据导入";
-            // 
-            // DataView
-            // 
-            this.DataView.Name = "DataView";
-            this.DataView.Size = new System.Drawing.Size(184, 22);
-            this.DataView.Text = "数据浏览";
-            // 
-            // ZbCalculate
-            // 
-            this.ZbCalculate.Name = "ZbCalculate";
-            this.ZbCalculate.Size = new System.Drawing.Size(184, 22);
-            this.ZbCalculate.Text = "坐标计算";
-            // 
-            // DataCreate
-            // 
-            this.DataCreate.Name = "DataCreate";
-            this.DataCreate.Size = new System.Drawing.Size(184, 22);
-            this.DataCreate.Text = "数据生成";
-            // 
-            // CzCalculate
-            // 
-            this.CzCalculate.Name = "CzCalculate";
-            this.CzCalculate.Size = new System.Drawing.Size(184, 22);
-            this.CzCalculate.Text = "插值计算";
-            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -389,14 +389,14 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private Kitware.VTK.RenderWindowControl renderWindowControl1;
-        private System.Windows.Forms.ToolStripMenuItem ZkBase;
-        private System.Windows.Forms.ToolStripMenuItem ZkYanXing;
-        private System.Windows.Forms.ToolStripMenuItem Ktx;
-        private System.Windows.Forms.ToolStripMenuItem DataImport;
-        private System.Windows.Forms.ToolStripMenuItem DataView;
-        private System.Windows.Forms.ToolStripMenuItem ZbCalculate;
-        private System.Windows.Forms.ToolStripMenuItem DataCreate;
-        private System.Windows.Forms.ToolStripMenuItem CzCalculate;
+        private System.Windows.Forms.ToolStripMenuItem ZkBaseFm;
+        private System.Windows.Forms.ToolStripMenuItem ZkYanXingFm;
+        private System.Windows.Forms.ToolStripMenuItem KtxFm;
+        private System.Windows.Forms.ToolStripMenuItem DataImportFm;
+        private System.Windows.Forms.ToolStripMenuItem DataViewFm;
+        private System.Windows.Forms.ToolStripMenuItem ZbCalculateFm;
+        private System.Windows.Forms.ToolStripMenuItem DataCreateFm;
+        private System.Windows.Forms.ToolStripMenuItem CzCalculateFm;
     }
 }
 

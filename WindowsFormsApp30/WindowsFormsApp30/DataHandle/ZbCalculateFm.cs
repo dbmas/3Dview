@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp30
 {
-    public partial class ZbCalculate : Form
+    public partial class ZbCalculateFm : Form
     {
-        public ZbCalculate()
+        public ZbCalculateFm()
         {
             InitializeComponent();
         }

@@ -1,4 +1,5 @@
-﻿using Models;
+﻿using DbHelper;
+using Models;
 using Newtonsoft.Json;
 using System;
 using System.Data;
@@ -42,21 +43,37 @@ namespace WindowsFormsApp30
         /// <param name="e"></param>
         private void test_Click(object sender, EventArgs e)
         {
-            if(
+            if (
                 String.IsNullOrEmpty(url.MyText) ||
-                String.IsNullOrEmpty(database.MyText)|| 
-                String.IsNullOrEmpty(userName.MyText)||
+                String.IsNullOrEmpty(database.MyText) ||
+                String.IsNullOrEmpty(userName.MyText) ||
                 String.IsNullOrEmpty(password.MyText))
             {
                 MessageBox.Show("请确认信息是否完整");
             }
             else
             {
-                SqlConnection sqlConnection = new SqlConnection($"server={url.MyText};database={database.MyText};user={userName.MyText};password={password.MyText}");
-                if (sqlConnection.State != ConnectionState.Open)
+                //SqlConnection sqlConnection = new SqlConnection($"server={url.MyText};database={database.MyText};user={userName.MyText};password={password.MyText}");
+                //if (sqlConnection.State != ConnectionState.Open)
+                //{
+                //    sqlConnection.Open();
+                //    if (sqlConnection.State == ConnectionState.Open)
+                //    {
+                //        MessageBox.Show("连接成功");
+                //    }
+                //    else
+                //    {
+                //        MessageBox.Show("连接失败");
+                //    }
+                //    sqlConnection.Close();
+                //    sqlConnection.Dispose();
+                //}
+
+                try
                 {
-                    sqlConnection.Open();
-                    if (sqlConnection.State == ConnectionState.Open)
+                    ISqlHelper splHelper = InitHelper.GetSqlHelper($"server={url.MyText};database={database.MyText};user={userName.MyText};password={password.MyText}");
+
+                    if (splHelper.Connection.State == ConnectionState.Open)
                     {
                         MessageBox.Show("连接成功");
                     }
@@ -64,8 +81,10 @@ namespace WindowsFormsApp30
                     {
                         MessageBox.Show("连接失败");
                     }
-                    sqlConnection.Close();
-                    sqlConnection.Dispose();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("连接失败" + ex.Message); ;
                 }
             }
         }
@@ -87,21 +106,33 @@ namespace WindowsFormsApp30
             }
             else
             {
-                SqlConnection sqlConnection = new SqlConnection($"server={url.MyText};database={database.MyText};user={userName.MyText};password={password.MyText}");
-                if (sqlConnection.State != ConnectionState.Open)
+                //SqlConnection sqlConnection = new SqlConnection($"server={url.MyText};database={database.MyText};user={userName.MyText};password={password.MyText}");
+                //if (sqlConnection.State != ConnectionState.Open)
+                //{
+                //    sqlConnection.Open();
+                //    if (sqlConnection.State == ConnectionState.Open)
+                //    {
+                //        MessageBox.Show("连接成功");
+                //        this.Close();
+                //    }
+                //    else
+                //    {
+                //        MessageBox.Show("连接失败");
+                //    }
+                //    sqlConnection.Close();
+                //    sqlConnection.Dispose();
+                //}
+
+                ISqlHelper splHelper = InitHelper.GetSqlHelper($"server={url.MyText};database={database.MyText};user={userName.MyText};password={password.MyText}");
+
+                if (splHelper.Connection.State == ConnectionState.Open)
                 {
-                    sqlConnection.Open();
-                    if (sqlConnection.State == ConnectionState.Open)
-                    {
-                        MessageBox.Show("连接成功");
-                        this.Close();
-                    }
-                    else
-                    {
-                        MessageBox.Show("连接失败");
-                    }
-                    sqlConnection.Close();
-                    sqlConnection.Dispose();
+                    MessageBox.Show("连接成功");
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("连接失败");
                 }
             }
         }

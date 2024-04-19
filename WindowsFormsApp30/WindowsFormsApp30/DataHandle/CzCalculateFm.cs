@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp30
 {
-    public partial class DataImport : Form
+    public partial class CzCalculateFm : Form
     {
-        public DataImport()
+        public CzCalculateFm()
         {
             InitializeComponent();
         }

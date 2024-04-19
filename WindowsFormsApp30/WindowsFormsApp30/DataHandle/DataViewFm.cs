@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp30
 {
-    public partial class ZkYanXing : Form
+    public partial class DataViewFm : Form
     {
-        public ZkYanXing()
+        public DataViewFm()
         {
             InitializeComponent();
         }

@@ -56,11 +56,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ControlHelper.cs" />
-    <Compile Include="DataHandle\CzCalculate.cs">
+    <Compile Include="DataHandle\CzCalculateFm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataHandle\CzCalculate.Designer.cs">
-      <DependentUpon>CzCalculate.cs</DependentUpon>
+    <Compile Include="DataHandle\CzCalculateFm.Designer.cs">
+      <DependentUpon>CzCalculateFm.cs</DependentUpon>
     </Compile>
     <Compile Include="DatabaseWindow.cs">
       <SubType>Form</SubType>
@@ -68,35 +68,35 @@
     <Compile Include="DatabaseWindow.Designer.cs">
       <DependentUpon>DatabaseWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataHandle\DataCreate.cs">
+    <Compile Include="DataHandle\DataCreateFm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataHandle\DataCreate.Designer.cs">
-      <DependentUpon>DataCreate.cs</DependentUpon>
+    <Compile Include="DataHandle\DataCreateFm.Designer.cs">
+      <DependentUpon>DataCreateFm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataHandle\ZkBase.cs">
+    <Compile Include="DataHandle\ZkBaseFm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataHandle\ZkBase.Designer.cs">
-      <DependentUpon>ZkBase.cs</DependentUpon>
+    <Compile Include="DataHandle\ZkBaseFm.Designer.cs">
+      <DependentUpon>ZkBaseFm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataHandle\DataImport.cs">
+    <Compile Include="DataHandle\DataImportFm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataHandle\DataImport.Designer.cs">
-      <DependentUpon>DataImport.cs</DependentUpon>
+    <Compile Include="DataHandle\DataImportFm.Designer.cs">
+      <DependentUpon>DataImportFm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataHandle\DataView.cs">
+    <Compile Include="DataHandle\DataViewFm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataHandle\DataView.Designer.cs">
-      <DependentUpon>DataView.cs</DependentUpon>
+    <Compile Include="DataHandle\DataViewFm.Designer.cs">
+      <DependentUpon>DataViewFm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataHandle\Ktx.cs">
+    <Compile Include="DataHandle\KtxFm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataHandle\Ktx.Designer.cs">
-      <DependentUpon>Ktx.cs</DependentUpon>
+    <Compile Include="DataHandle\KtxFm.Designer.cs">
+      <DependentUpon>KtxFm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
@@ -106,44 +106,44 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DataHandle\ZbCalculate.cs">
+    <Compile Include="DataHandle\ZbCalculateFm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataHandle\ZbCalculate.Designer.cs">
-      <DependentUpon>ZbCalculate.cs</DependentUpon>
+    <Compile Include="DataHandle\ZbCalculateFm.Designer.cs">
+      <DependentUpon>ZbCalculateFm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DataHandle\ZkYanXing.cs">
+    <Compile Include="DataHandle\ZkYanXingFm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DataHandle\ZkYanXing.Designer.cs">
-      <DependentUpon>ZkYanXing.cs</DependentUpon>
+    <Compile Include="DataHandle\ZkYanXingFm.Designer.cs">
+      <DependentUpon>ZkYanXingFm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="DatabaseWindow.resx">
       <DependentUpon>DatabaseWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataHandle\CzCalculate.resx">
-      <DependentUpon>CzCalculate.cs</DependentUpon>
+    <EmbeddedResource Include="DataHandle\CzCalculateFm.resx">
+      <DependentUpon>CzCalculateFm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataHandle\DataCreate.resx">
-      <DependentUpon>DataCreate.cs</DependentUpon>
+    <EmbeddedResource Include="DataHandle\DataCreateFm.resx">
+      <DependentUpon>DataCreateFm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataHandle\DataImport.resx">
-      <DependentUpon>DataImport.cs</DependentUpon>
+    <EmbeddedResource Include="DataHandle\DataImportFm.resx">
+      <DependentUpon>DataImportFm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataHandle\DataView.resx">
-      <DependentUpon>DataView.cs</DependentUpon>
+    <EmbeddedResource Include="DataHandle\DataViewFm.resx">
+      <DependentUpon>DataViewFm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataHandle\Ktx.resx">
-      <DependentUpon>Ktx.cs</DependentUpon>
+    <EmbeddedResource Include="DataHandle\KtxFm.resx">
+      <DependentUpon>KtxFm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataHandle\ZbCalculate.resx">
-      <DependentUpon>ZbCalculate.cs</DependentUpon>
+    <EmbeddedResource Include="DataHandle\ZbCalculateFm.resx">
+      <DependentUpon>ZbCalculateFm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataHandle\ZkBase.resx">
-      <DependentUpon>ZkBase.cs</DependentUpon>
+    <EmbeddedResource Include="DataHandle\ZkBaseFm.resx">
+      <DependentUpon>ZkBaseFm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DataHandle\ZkYanXing.resx">
-      <DependentUpon>ZkYanXing.cs</DependentUpon>
+    <EmbeddedResource Include="DataHandle\ZkYanXingFm.resx">
+      <DependentUpon>ZkYanXingFm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
@@ -175,6 +175,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DbHelper\DbHelper.csproj">
+      <Project>{d51ec237-ff01-4054-ae33-bc28ce9e924b}</Project>
+      <Name>DbHelper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Models\Models.csproj">
       <Project>{1BE5A3A1-1F5E-4416-BDCB-EE1ACECE18DB}</Project>
       <Name>Models</Name>
@@ -183,6 +187,9 @@
       <Project>{935E5A5A-A91D-4A16-A863-7A6FE84F2A5F}</Project>
       <Name>MyControl</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sql\3dview.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

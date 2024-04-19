@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp30
 {
-    partial class ZbCalculate
+    partial class ZbCalculateFm
     {
         /// <summary>
         /// Required designer variable.
