@@ -1,24 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\",
+  "WorkspaceRootPath": "G:\\3Dview\\WindowsFormsApp30\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|c:\\users\\\u5F20\u6597\u6597\\source\\repos\\windowsformsapp30\\windowsformsapp30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|g:\\3dview\\windowsformsapp30\\windowsformsapp30\\datahandle\\dataviewfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\datahandle\\dataviewfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|c:\\users\\\u5F20\u6597\u6597\\source\\repos\\windowsformsapp30\\windowsformsapp30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|g:\\3dview\\windowsformsapp30\\windowsformsapp30\\datahandle\\dataviewfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\datahandle\\dataviewfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|c:\\users\\\u5F20\u6597\u6597\\source\\repos\\windowsformsapp30\\windowsformsapp30\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BE5A3A1-1F5E-4416-BDCB-EE1ACECE18DB}|Models\\Models.csproj|g:\\3dview\\windowsformsapp30\\models\\ktx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BE5A3A1-1F5E-4416-BDCB-EE1ACECE18DB}|Models\\Models.csproj|solutionrelative:models\\ktx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WindowsFormsApp30||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{D51EC237-FF01-4054-AE33-BC28CE9E924B}|DbHelper\\DbHelper.csproj|g:\\3dview\\windowsformsapp30\\dbhelper\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D51EC237-FF01-4054-AE33-BC28CE9E924B}|DbHelper\\DbHelper.csproj|solutionrelative:dbhelper\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|c:\\users\\\u5F20\u6597\u6597\\source\\repos\\windowsformsapp30\\windowsformsapp30\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|g:\\3dview\\windowsformsapp30\\windowsformsapp30\\datahandle\\dataimportfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\datahandle\\dataimportfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|g:\\3dview\\windowsformsapp30\\windowsformsapp30\\datahandle\\dataimportfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\datahandle\\dataimportfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|g:\\3dview\\windowsformsapp30\\windowsformsapp30\\datahandle\\ktxfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\datahandle\\ktxfm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D51EC237-FF01-4054-AE33-BC28CE9E924B}|DbHelper\\DbHelper.csproj|g:\\3dview\\windowsformsapp30\\dbhelper\\inithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D51EC237-FF01-4054-AE33-BC28CE9E924B}|DbHelper\\DbHelper.csproj|solutionrelative:dbhelper\\inithelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|G:\\3Dview\\WindowsFormsApp30\\windowsformsapp30\\datahandle\\zkbasefm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\datahandle\\zkbasefm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|G:\\3Dview\\WindowsFormsApp30\\windowsformsapp30\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|G:\\3Dview\\WindowsFormsApp30\\windowsformsapp30\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|G:\\3Dview\\WindowsFormsApp30\\windowsformsapp30\\datahandle\\datacreatefm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\datahandle\\datacreatefm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|G:\\3Dview\\WindowsFormsApp30\\windowsformsapp30\\sql\\3dview.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{0FA64545-9F79-4D0C-9DBC-6EFA11BE4C1A}|WindowsFormsApp30\\WindowsFormsApp30.csproj|solutionrelative:windowsformsapp30\\sql\\3dview.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\3Dview\\WindowsFormsApp30\\DbHelper\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DbHelper\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WindowsFormsApp30\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WindowsFormsApp30\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,57 +74,218 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WindowsFormsApp30",
-              "DocumentMoniker": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\WindowsFormsApp30.csproj",
-              "RelativeDocumentMoniker": "WindowsFormsApp30\\WindowsFormsApp30.csproj",
-              "ToolTip": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\WindowsFormsApp30.csproj",
-              "RelativeToolTip": "WindowsFormsApp30\\WindowsFormsApp30.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-11T06:51:01.949Z",
+              "DocumentIndex": 2,
+              "Title": "Ktx.cs",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\Models\\Ktx.cs",
+              "RelativeDocumentMoniker": "Models\\Ktx.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\Models\\Ktx.cs",
+              "RelativeToolTip": "Models\\Ktx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:01:28.754Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp30\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.Designer.cs",
-              "RelativeToolTip": "WindowsFormsApp30\\Form1.Designer.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAIwOUAAAAxAAAA",
+              "DocumentIndex": 1,
+              "Title": "DataViewFm.cs",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\DataViewFm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\DataHandle\\DataViewFm.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\DataViewFm.cs",
+              "RelativeToolTip": "WindowsFormsApp30\\DataHandle\\DataViewFm.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAtwJYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T06:46:25.592Z",
+              "WhenOpened": "2024-05-10T06:45:13.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp30\\Form1.cs",
-              "ToolTip": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs",
-              "RelativeToolTip": "WindowsFormsApp30\\Form1.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAIwGcAAAABAAAA",
+              "Title": "DataViewFm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\DataViewFm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\DataHandle\\DataViewFm.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\DataViewFm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WindowsFormsApp30\\DataHandle\\DataViewFm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T06:38:33.213Z",
+              "WhenOpened": "2024-05-10T06:36:13.962Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SqlHelper.cs",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\DbHelper\\SqlHelper.cs",
+              "RelativeDocumentMoniker": "DbHelper\\SqlHelper.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\DbHelper\\SqlHelper.cs",
+              "RelativeToolTip": "DbHelper\\SqlHelper.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAYwAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:21:28.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp30\\Form1.cs",
-              "ToolTip": "C:\\Users\\\u5F20\u6597\u6597\\source\\repos\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "WindowsFormsApp30\\Form1.cs [\u8BBE\u8BA1]",
+              "DocumentIndex": 5,
+              "Title": "DataImportFm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\DataImportFm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\DataHandle\\DataImportFm.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\DataImportFm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WindowsFormsApp30\\DataHandle\\DataImportFm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T06:37:55.835Z",
+              "WhenOpened": "2024-05-10T06:17:52.517Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KtxFm.cs",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\KtxFm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\DataHandle\\KtxFm.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\KtxFm.cs",
+              "RelativeToolTip": "WindowsFormsApp30\\DataHandle\\KtxFm.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:16:06.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InitHelper.cs",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\DbHelper\\InitHelper.cs",
+              "RelativeDocumentMoniker": "DbHelper\\InitHelper.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\DbHelper\\InitHelper.cs",
+              "RelativeToolTip": "DbHelper\\InitHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T06:15:42.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataImportFm.cs",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\DataImportFm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\DataHandle\\DataImportFm.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\DataImportFm.cs",
+              "RelativeToolTip": "WindowsFormsApp30\\DataHandle\\DataImportFm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T02:27:27.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ZkBaseFm.cs",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\ZkBaseFm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\DataHandle\\ZkBaseFm.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\ZkBaseFm.cs",
+              "RelativeToolTip": "WindowsFormsApp30\\DataHandle\\ZkBaseFm.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwDwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:28:17.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\DbHelper\\Class1.cs",
+              "RelativeDocumentMoniker": "DbHelper\\Class1.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\DbHelper\\Class1.cs",
+              "RelativeToolTip": "DbHelper\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:25:23.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\Form1.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp30\\Form1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:05:04.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\MainWindow.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\MainWindow.cs",
+              "ToolTip": "D:\\WorkSpace\\C#\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\MainWindow.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:55:37.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\MainWindow.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\MainWindow.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\MainWindow.cs",
+              "RelativeToolTip": "WindowsFormsApp30\\MainWindow.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAIwH8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:23:57.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataCreateFm.cs",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\DataCreateFm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\DataHandle\\DataCreateFm.cs",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\DataHandle\\DataCreateFm.cs",
+              "RelativeToolTip": "WindowsFormsApp30\\DataHandle\\DataCreateFm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:12:37.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\Form1.cs",
+              "ToolTip": "D:\\WorkSpace\\C#\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:56:53.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "3dview.sql",
+              "DocumentMoniker": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\Sql\\3dview.sql",
+              "RelativeDocumentMoniker": "WindowsFormsApp30\\Sql\\3dview.sql",
+              "ToolTip": "G:\\3Dview\\WindowsFormsApp30\\WindowsFormsApp30\\Sql\\3dview.sql",
+              "RelativeToolTip": "WindowsFormsApp30\\Sql\\3dview.sql",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-26T12:35:47.486Z"
             }
           ]
         }
