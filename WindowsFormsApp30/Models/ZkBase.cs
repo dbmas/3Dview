@@ -11,7 +11,7 @@ namespace Models
     /// </summary>
     public class ZkBase
     {
-        public long Id;
+        public long Id { get; set; }
         /// <summary>
         /// 钻孔编号
         /// </summary>
